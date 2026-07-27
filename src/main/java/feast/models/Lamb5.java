@@ -1,6 +1,14 @@
 package feast.models;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Lamb5 {
+
+    private  Goat6 goat6;
+
+    public Lamb5(Goat6 goat6){
+        this.goat6 = goat6;
+    }
 
     @Override
     public String toString() {
