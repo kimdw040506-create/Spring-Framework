@@ -12,6 +12,6 @@ public class Lamb5 {
 
     @Override
     public String toString() {
-        return "which is stuffed inside a goat, ";
+        return "which is stuffed inside a goat, " + goat6.toString();
     }
 }
