@@ -28,5 +28,4 @@ public class MainTest {
             Assert.fail("The test failed due to incorrect wiring of the beans");
         }
     }
-
 }
